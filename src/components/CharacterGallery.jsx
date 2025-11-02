@@ -7,6 +7,7 @@ import Character from "./Character";
 function CharacterGallery() {
   return (
     <div>
+      <h1>This page is just for practice purpose only</h1>
       {characterData.map((character) => (
         <Character
           key={character.id}
